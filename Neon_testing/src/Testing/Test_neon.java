@@ -7,17 +7,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class  Test_neon {
+public  class  Test_neon {
 	
-
-	public static WebDriver driver;
+	public  WebDriver driver;
 	
 	
 	
 	
   @Test(priority=1)
   
-	  public  static void openbrowser() {
+	  public   void openbrowser() {
 	
 	 driver.get("http://localhost:8080/neonsh/");
 	
@@ -26,7 +25,7 @@ public class  Test_neon {
 	  
 
   @ Test (priority=2 ) //Login
-  public static void Logeo() throws InterruptedException {
+  public  void Logeo() throws InterruptedException {
 	  
 	 	
 	  	
@@ -44,7 +43,7 @@ public class  Test_neon {
   
  
   @BeforeTest
-  public static void beforeTest() {
+  public  void beforeTest() {
 	  
 
 	driver = new ChromeDriver();
@@ -58,7 +57,7 @@ public class  Test_neon {
  
 
   @AfterTest
-  public  static void afterTest() throws InterruptedException {
+  public  void afterTest() throws InterruptedException {
   
 	  	
 	  			Thread.sleep(5000);

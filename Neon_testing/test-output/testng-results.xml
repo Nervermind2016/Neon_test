@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16614" started-at="2018-07-23T00:30:23Z" finished-at="2018-07-23T00:30:40Z">
+  <suite name="Default suite" duration-ms="14453" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16614" started-at="2018-07-23T00:30:23Z" finished-at="2018-07-23T00:30:40Z">
-      <class name="Testing.Test_neon">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testing.Test_neon@26be92ad]" name="beforeTest" is-config="true" duration-ms="3498" started-at="2018-07-23T00:30:23Z" finished-at="2018-07-23T00:30:27Z">
+    <test name="Default test" duration-ms="14453" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:44Z">
+      <class name="Testing.Flujo_Gastos">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testing.Flujo_Gastos@26be92ad]" name="beforeTest" is-config="true" duration-ms="3077" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="openbrowser()[pri:1, instance:Testing.Test_neon@26be92ad]" name="openbrowser" duration-ms="2515" started-at="2018-07-23T00:30:27Z" finished-at="2018-07-23T00:30:29Z">
+        <test-method status="PASS" signature="openbrowser()[pri:1, instance:Testing.Flujo_Gastos@26be92ad]" name="openbrowser" duration-ms="807" started-at="2018-07-23T02:12:32Z" finished-at="2018-07-23T02:12:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="Logeo()[pri:2, instance:Testing.Test_neon@26be92ad]" name="Logeo" duration-ms="5347" started-at="2018-07-23T00:30:29Z" finished-at="2018-07-23T00:30:35Z">
+        <test-method status="PASS" signature="credentials()[pri:2, instance:Testing.Flujo_Gastos@26be92ad]" name="credentials" duration-ms="5384" started-at="2018-07-23T02:12:33Z" finished-at="2018-07-23T02:12:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logeo -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testing.Test_neon@26be92ad]" name="afterTest" is-config="true" duration-ms="5235" started-at="2018-07-23T00:30:35Z" finished-at="2018-07-23T00:30:40Z">
+        </test-method> <!-- credentials -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testing.Flujo_Gastos@26be92ad]" name="afterTest" is-config="true" duration-ms="5168" started-at="2018-07-23T02:12:38Z" finished-at="2018-07-23T02:12:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Testing.Test_neon -->
+      </class> <!-- Testing.Flujo_Gastos -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
