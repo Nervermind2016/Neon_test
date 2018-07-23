@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.Test_neon">
+      <class name="Testing.Flujo_Gastos">
         <methods>
-          <include name="Logeo"/>
-          <include name="afterTest"/>
+          <include name="inicio"/>
           <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="credentials"/>
         </methods>
-      </class> <!-- Testing.Test_neon -->
+      </class> <!-- Testing.Flujo_Gastos -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
