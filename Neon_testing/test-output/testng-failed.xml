@@ -5,10 +5,9 @@
     <classes>
       <class name="Testing.Flujo_Gastos">
         <methods>
-          <include name="inicio"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="credentials"/>
+          <include name="Llenar_solicitud"/>
         </methods>
       </class> <!-- Testing.Flujo_Gastos -->
     </classes>

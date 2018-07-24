@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1015590197\testng-customsuite.xml</span>
+                    <span>C:\Users\fhoyos\AppData\Local\Temp\testng-eclipse-118555745\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,21 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testing.Flujo_Gastos" hash-for-method="EjecutarGasto">EjecutarGasto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testing.Flujo_Gastos" hash-for-method="Llenar_solicitud">Llenar_solicitud</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testing.Flujo_Gastos" hash-for-method="SeleccionarGastos">SeleccionarGastos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="Testing.Flujo_Gastos" hash-for-method="credentials">credentials</a> <!-- method navigator-link -->
@@ -130,6 +145,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="EjecutarGasto">
+                  </a> <!-- EjecutarGasto -->
+                  <span class="method-name">EjecutarGasto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Llenar_solicitud">
+                  </a> <!-- Llenar_solicitud -->
+                  <span class="method-name">Llenar_solicitud</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SeleccionarGastos">
+                  </a> <!-- SeleccionarGastos -->
+                  <span class="method-name">SeleccionarGastos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="credentials">
                   </a> <!-- credentials -->
                   <span class="method-name">credentials</span>
@@ -147,7 +183,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\lenovo\AppData\Local\Temp\testng-eclipse-1015590197\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\fhoyos\AppData\Local\Temp\testng-eclipse-118555745\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -196,20 +232,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'credentials')
+data.setCell(0, 1, 'EjecutarGasto')
 data.setCell(0, 2, 'Testing.Flujo_Gastos')
-data.setCell(0, 3, 5384);
+data.setCell(0, 3, 25660);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'openbrowser')
+data.setCell(1, 1, 'SeleccionarGastos')
 data.setCell(1, 2, 'Testing.Flujo_Gastos')
-data.setCell(1, 3, 807);
+data.setCell(1, 3, 11286);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Llenar_solicitud')
+data.setCell(2, 2, 'Testing.Flujo_Gastos')
+data.setCell(2, 3, 4335);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'openbrowser')
+data.setCell(3, 2, 'Testing.Flujo_Gastos')
+data.setCell(3, 3, 3278);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'credentials')
+data.setCell(4, 2, 'Testing.Flujo_Gastos')
+data.setCell(4, 3, 2493);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -242,15 +290,27 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">openbrowser</span>
-                <span class="method-start">3087 ms</span>
+                <span class="method-start">7052 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">credentials</span>
-                <span class="method-start">3898 ms</span>
+                <span class="method-start">10347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SeleccionarGastos</span>
+                <span class="method-start">12847 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Llenar_solicitud</span>
+                <span class="method-start">24137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">EjecutarGasto</span>
+                <span class="method-start">28475 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">9283 ms</span>
+                <span class="method-start">54142 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

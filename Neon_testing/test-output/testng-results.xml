@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14453" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:44Z">
+  <suite name="Default suite" duration-ms="67530" started-at="2018-07-24T20:52:21Z" finished-at="2018-07-24T20:53:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14453" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:44Z">
+    <test name="Default test" duration-ms="67530" started-at="2018-07-24T20:52:21Z" finished-at="2018-07-24T20:53:29Z">
       <class name="Testing.Flujo_Gastos">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testing.Flujo_Gastos@26be92ad]" name="beforeTest" is-config="true" duration-ms="3077" started-at="2018-07-23T02:12:29Z" finished-at="2018-07-23T02:12:32Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Testing.Flujo_Gastos@224edc67]" name="beforeTest" is-config="true" duration-ms="6993" started-at="2018-07-24T20:52:21Z" finished-at="2018-07-24T20:52:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="openbrowser()[pri:1, instance:Testing.Flujo_Gastos@26be92ad]" name="openbrowser" duration-ms="807" started-at="2018-07-23T02:12:32Z" finished-at="2018-07-23T02:12:33Z">
+        <test-method status="PASS" signature="openbrowser()[pri:1, instance:Testing.Flujo_Gastos@224edc67]" name="openbrowser" duration-ms="3278" started-at="2018-07-24T20:52:28Z" finished-at="2018-07-24T20:52:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="credentials()[pri:2, instance:Testing.Flujo_Gastos@26be92ad]" name="credentials" duration-ms="5384" started-at="2018-07-23T02:12:33Z" finished-at="2018-07-23T02:12:38Z">
+        <test-method status="PASS" signature="credentials()[pri:2, instance:Testing.Flujo_Gastos@224edc67]" name="credentials" duration-ms="2493" started-at="2018-07-24T20:52:32Z" finished-at="2018-07-24T20:52:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- credentials -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testing.Flujo_Gastos@26be92ad]" name="afterTest" is-config="true" duration-ms="5168" started-at="2018-07-23T02:12:38Z" finished-at="2018-07-23T02:12:44Z">
+        <test-method status="PASS" signature="SeleccionarGastos()[pri:3, instance:Testing.Flujo_Gastos@224edc67]" name="SeleccionarGastos" duration-ms="11286" started-at="2018-07-24T20:52:34Z" finished-at="2018-07-24T20:52:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleccionarGastos -->
+        <test-method status="PASS" signature="Llenar_solicitud()[pri:4, instance:Testing.Flujo_Gastos@224edc67]" name="Llenar_solicitud" duration-ms="4335" started-at="2018-07-24T20:52:45Z" finished-at="2018-07-24T20:52:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Llenar_solicitud -->
+        <test-method status="PASS" signature="EjecutarGasto()[pri:5, instance:Testing.Flujo_Gastos@224edc67]" name="EjecutarGasto" duration-ms="25660" started-at="2018-07-24T20:52:50Z" finished-at="2018-07-24T20:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EjecutarGasto -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Testing.Flujo_Gastos@224edc67]" name="afterTest" is-config="true" duration-ms="13380" started-at="2018-07-24T20:53:15Z" finished-at="2018-07-24T20:53:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
